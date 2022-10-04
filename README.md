@@ -1,5 +1,5 @@
 # CS645 Advanced Database Systems
-We will going to perform simple MapReduce job using hadoop streaming. There will be two experiments in this MapReduce task.
+We will going to perform simple MapReduce job using hadoop streaming. There will be two experiments in this MapReduce task. A sample utf-8 format ebook was stored in the input folder and named input.txt.
 
 ## Experiment 1
 Execute the WordCount Job including sorting the result into one file.
