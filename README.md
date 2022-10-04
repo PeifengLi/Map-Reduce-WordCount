@@ -1,4 +1,4 @@
-# About
+# CS645 Advanced Database Systems
 We will going to perform simple MapReduce job using hadoop streaming. There will be two experiments in this MapReduce task.
 
 ## Experiment 1
