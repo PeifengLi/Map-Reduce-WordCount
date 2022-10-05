@@ -1,4 +1,4 @@
-# AWS EMR Python Job Guide - Descending Order By Value
+# AWS EMR Python Job Guide - Descending Order By Value - Option 2
 
 ## Step 1:  custom JAR
 - JAR location: command-runner.jar
