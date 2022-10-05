@@ -2,7 +2,7 @@
 We will going to perform simple MapReduce job using hadoop streaming. There will be two experiments in this MapReduce task. A sample utf-8 format ebook was stored in the input folder and named input.txt.
 
 ## Experiment 1
-Execute the WordCount Job including sorting the result into one file. ```mapper.py``` and ```swaper.py``` were used in this case.
+Execute the WordCount Job including sorting the result into one file. ```mapper.py``` and ```reducer.py``` were used in this case.
 
 ## Experiment 2
 Revise the WordCount Job to sort the words in descending order by count. Be sure to produce one file as a result with the keyword and a positive count sorted in descending order by count. 
