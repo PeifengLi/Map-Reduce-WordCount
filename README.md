@@ -7,5 +7,5 @@ Execute the WordCount Job including sorting the result into one file. ```mapper.
 ## Experiment 2
 Revise the WordCount Job to sort the words in descending order by count. Be sure to produce one file as a result with the keyword and a positive count sorted in descending order by count. 
 
-- Option 1 : ```mapper.py``` and ```swaper.py``` were used and it gives me the correct result. swaper.py is a slightly modified reducer where I add a sort method at the end of the reducer. 
+- Option 1 : ```mapper.py``` and ```swaper.py``` were used and it gives me the correct result. ```swaper.py``` is a slightly modified reducer where I add a sort method at the end of the reducer.  Note that we sort the value in the end of ```swaper.py```, if the input file too large to fit into memory, it would fail.
 - Option 2: ```mapper.py``` and ```reducer.py``` were used and it gives me the correct result too. And I use hadoop streaming twice, the first hadoop streaming I used ```mapper.py``` and ```reducer.py``` and for the second hadoop streaming I use ```/bin/cat``` as both mapper and reducer.
